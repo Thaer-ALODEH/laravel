@@ -15,11 +15,25 @@ return [
     */
 
     'postmark' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        'token' => env('POSTMARK_TOKEN'),
+    ],
+
+    'resend' => [
+        'key' => env('RESEND_KEY'),
+=======
+>>>>>>> 5b1d2e041870b02580c18d6b5b363e83d705a7ce
         'key' => env('POSTMARK_API_KEY'),
     ],
 
     'resend' => [
         'key' => env('RESEND_API_KEY'),
+<<<<<<< HEAD
+=======
+>>>>>>> 89f4e97 (Thaer_ALODEH)
+>>>>>>> 5b1d2e041870b02580c18d6b5b363e83d705a7ce
     ],
 
     'ses' => [
